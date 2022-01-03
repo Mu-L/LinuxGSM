@@ -94,7 +94,6 @@ else
 	distrosupport=unknown
 fi
 
-echo "${distrosupport}"
 ## Glibc version
 # e.g: 1.17
 glibcversion="$(ldd --version | sed -n '1s/.* //p')"
