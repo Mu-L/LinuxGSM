@@ -88,8 +88,6 @@ if [ "$(command -v distro-info 2>/dev/null)" ]; then
 		if [ "${distrounsupported}" == "${distrocodename}" ]; then
 			distrosupport=unsupported
 			break
-		else
-			distrosupport=supported
 		fi
 	done
 else
